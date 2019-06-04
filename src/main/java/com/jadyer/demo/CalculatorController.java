@@ -19,6 +19,8 @@ public class CalculatorController {
     @Resource
     private DiscoveryClient client;
 
+    //////////////////////
+    ///////////////////
     @RequestMapping("/add")
     public int add(int a, int b){
         //加运算
